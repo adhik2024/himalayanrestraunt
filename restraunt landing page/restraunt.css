@@ -1,0 +1,300 @@
+
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.landingpage{
+    height: 100vh;
+    max-height: 100vh;
+    max-width: 100vw;
+
+}
+#logo{
+    width: 130px;
+    aspect-ratio: 4/3;
+   
+}
+.logo{
+    margin-left: 60px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 1%;
+   
+  
+  
+  
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 20px;
+    color: rgb(232, 185, 98);
+   
+    
+}
+nav ul:last-of-type{
+    margin-right: 80px;
+}
+
+nav li{
+    list-style: none;
+   
+}
+.menu a{
+    text-decoration: none;
+    color:orange
+}
+
+nav li:hover{
+    text-decoration: underline solid 3px 	#D2042D;
+    
+}
+.introductioncontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+   
+}
+
+.introtext{
+    font-family: 'Fondamento', Times, serif;
+    font-size: xx-large;
+    font-weight:900px;
+    margin-top: -1vh;
+    margin-left: 6vw;
+    z-index: 100;
+}
+#authentic{
+    font-size: 100px;
+}
+#nepali{
+    font-size: 110px;
+    margin-top:-100px;
+    color:	#D2042D;
+}
+#cuisine{
+    font-size:105px;
+    margin-top:-130px ;
+}
+.introimage{
+  margin-left: -140px;
+  
+  margin-top: 30vh;
+ 
+}
+
+#thakaliset{
+  width:70vw;
+  aspect-ratio: 4/3;
+  z-index: -10;
+  margin-top: -30vh;
+
+}
+#button{
+    margin-top: -10px;
+}
+#button button {
+    font-family: 'Lora', Times, serif;
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    align-items: center;
+    border-color: orange;
+    margin-left: 90px;
+   
+}
+
+#secondpage{
+height: 100vh;
+padding-top: 60px;
+
+
+}
+
+.ourstory{
+    margin-top: 50vh;
+    max-width: 100vw;
+    width:50vw;
+   border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    margin-left: 30vw;
+    margin-bottom: 40vh;
+    
+    
+}
+#boudha{
+    width:300px;
+    height: 377px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+   position: absolute;
+}
+.ourstory  {
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+.ourstory h2{
+    margin-left: 32vw;
+    color:gold;
+}
+
+.ourstory p{
+    padding-right:12px;
+    margin-left: 22vw;
+    text-align: justify;
+    padding-top: 10px;
+}
+#menupage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  #todaymenu {
+    font-size: 2rem;
+    font-style: italic;
+  }
+  
+  #menuoption {
+    margin-top: 1rem;
+  }
+  
+  #menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+  }
+  
+  .menu-item img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    margin-top: 30px;
+    margin-left: 42vw;
+  }
+  
+  .menu-item h3 {
+    margin: 0;
+    color: goldenrod;
+    font-family:'Fondamento', Times, serif ;
+    text-align: center;
+  }
+  
+  .menu-item p {
+    margin: 0;
+  }
+  
+  .golden-price {
+    color: goldenrod;
+  }
+
+ .dropdown{
+    height: 40px;
+    width:100px;
+    background-color: #FFAA33;
+    color: #FFF8DC;
+    text-align: center;
+    font-family: 'Lora', Times, serif;;
+    font-weight: bolder;
+ }
+
+ .menu-container{
+    margin-top: 20px;
+ }
+
+ #finalpage{
+    height:100vh;
+    
+ }
+ .reservationimg{
+    margin-top: 50vh;
+    position:relative;
+    display: inline-block;
+ }
+    
+ .restrauntimg{
+    height: 70vh;
+    width:100vw;
+    filter: brightness(0.5);
+    z-index: -100;
+ }
+
+ .bookingimg{
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+ }
+
+ .booknowbttn{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    z-index: 1;
+    height: 39px;
+    width:150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:4px solid #FFAA33;
+    background-color: transparent;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+ }
+
+ .booknowbttn:hover{
+    transform: scale(2);
+    transform: scale(2);
+ }
+
+ footer{
+    height: 200px;
+    padding-top: 30px;
+    
+ }
+ #contact ul{
+    list-style: none;
+ }
+ #contact ul :first-of-type{
+    color:rgb(232, 185, 98);
+    font-size:20px;
+ }
+
+ #contact {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+ }
+ #contact>#phone{
+    margin-top: -25px;
+ }
+
+
+ 
+
+  
+
+  
+
